@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+/* Colores reutilizables */
+:root {
+    /* Colores */
+    --navcolor:rgba(10,10,10,1);
+    --maincolor:rgba(50,50,50,1);
+    --transp: rgba(0,0,0,0);
+
+
+    /* Fuente */
+    --fontcolor:rgba(250,50,40,1);
+    --navfootcolorfont:rgba(255,255,255,1);
+}
+
+@media (min-width:0px) and (max-width:767px) {
+}
+@media (min-width:768px) and (max-width:1023px) {
+}
+@media (min-width:1024px) {
+}
+
+/* Navegación - HEADER y FOOTER */
+header, footer {
+    width: 100%;
+    padding: 1rem 0;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-color: var(--navcolor);
+}
+
+.logo {
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: 30px;
+
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+    font-family: "Pirata One", system-ui;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--navfootcolorfont);
+}
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+.logo span {
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.lista-enlaces {
+    list-style: none;
+    padding: 0.5rem 1rem;
+
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.enlaces {
+    list-style: none;
+    padding: 0.5rem 1rem;
+}
+.enlaces a {
+    text-decoration: none;
+    font-family: "Pirata One", system-ui;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--navfootcolorfont);
+}
+
+.enlaces:hover {
+    border-radius: 0.5rem;
+    background-color:var(--navfootcolorfont);
+    transition: 1s;
+}
+
+.enlaces a:hover {
+    color: black;
+    transition: 1s;
+}
+
+.carrito {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+/* Main */
+main {
+    width: 100%;
+    background-color: var(--maincolor);
+}
+
+
+/* Footer */
+footer hr {
+    display: block;
+    border-color: white;
+    width: 95%;
+    margin: auto;
+}
+
+.redes-sociales {
+    display: block;
+    margin: auto;
+}
+
+footer p, .info-actual p {
+    color: var(--navfootcolorfont);
+    padding:1rem 0;
+    font-weight: bold;
+}
+
+footer p {
+    text-align: center;
+}
+
+.info-actual {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+

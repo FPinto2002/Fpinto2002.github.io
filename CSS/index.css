@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+:root {
+    --fontcolormain: rgba(250,250,250,1);
+    --fontcolordarkm: rgba(5,5,5,1);
+    --contacto:rgba(45,45,45,1);
+    --btncolor: rgba(20,20,20,1);
+    --btncolordarkm: rgba(250,250,250,1);
+}
+
+.promo {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Sección Productos */
+.productos {
+    width: 95%;
+    margin: auto;
+}
+
+section h2 {
+    font-family: "New Rocker", system-ui;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--fontcolormain);
+    padding: 10px 0;
+}
+
+hr {
+    width: 95%;
+    display: block;
+    margin: auto;
+
+    border-color: white;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tarjeta {
+    border-radius: 0.5rem;
+    
+    background-color: var(--fontcolormain);
+
+    margin: 10px;
+    padding: 10px;
+
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta img {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    width: 90%;
+    margin: auto;
+
+}
+
+.tarjeta p {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Staatliches", sans-serif;
+}
+
+
+/* Sección Contacto */
+.contacto {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: var(--contacto);
+}
+
+.contacto div {
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+}
+
+.contacto div p {
+    color: var(--fontcolormain);
+}
+
+.btn-form {
+    border-radius: 0.5rem;
+    text-decoration: none;
+
+    font-weight: bold;
+    font-family: "Staatliches", sans-serif;
+
+    color: var(--fontcolormain);
+    background-color: var(--btncolor);
+    padding: 10px;
+}
+
+.btn-form:hover {
+    transition: 1s;
+    color: var(--fontcolordarkm);
+    background-color: var(--btncolordarkm);
+}
+
+
+/* Sección Banner */
+/* BANNER */
+.banner, .banner img {
+    width: 100%;
+}

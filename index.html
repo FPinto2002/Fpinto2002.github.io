@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Información Pestaña -->
+    <title>Nombre - PAGINA PRINCIPAL</title>
+    <link rel="icon" href="img/favicon.ico">
+
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index, follow">
+
+    <!-- Datos de la Pagina -->
+    <meta name="author" content="Verrati"> <!-- Autor de la Pagina -->
+    <meta name="keywords" content="Palabras clave de busqueda"> <!-- Palabras clave de busqueda -->
+    <meta name="description" content="Texto descriptivo de la Pagina"> <!-- Descripción de la pagina -->
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/base.css"> <!-- Hoja de estilos base -->
+    <link rel="stylesheet" href="CSS/index.css"> <!-- Hoja de estilos base -->
+
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html" >
+            <img src="img/icono.png" alt="Logotipo de página">
+            <span>Nombre de tienda</span>
+        </a>
+        <ul class="lista-enlaces">
+            <li class="enlaces"><a href="index.html">Inicio</a></li>
+            <li class="enlaces"><a href="#productos">Productos</a></li>
+            <li class="enlaces"><a href="#">Nosotros</a></li>
+            <li class="enlaces"><a href="#contacto">Contacto</a></li>
+            <li class="enlaces"><a href="#"><img class="carrito" src="img/carrito.jpg" alt="carrito"></a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="carrusel">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/Carrusel 1.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Carrusel 2.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Carrusel 3.webp" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+
+        <section class="promo">
+                <a href="#"><img src="img/banner_lp.webp" alt="banner de oferta"></a>
+        </section>
+
+
+        <section id="productos" class="productos">
+            <h2>Productos</h2>
+            <hr>
+            <div class="contenedor">
+                <div class="tarjeta">
+                    <img src="img/producto 1.webp">
+                    <p>Producto 1</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/producto 2.webp">
+                    <p>Producto 2</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/producto 3.webp">
+                    <p>Producto 3</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/producto 4.webp">
+                    <p>Producto 4</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/producto 5.webp">
+                    <p>Producto 5</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/producto 6.webp">
+                    <p>Producto 6</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/producto 7.webp">
+                    <p>Producto 7</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/producto 8.webp">
+                    <p>Producto 8</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/producto 9.webp">
+                    <p>Producto 9</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/producto 10.webp">
+                    <p>Producto 10</p>
+                </div>
+            </div>
+            <nav aria-label="...">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link">Previous</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item active">
+                        <a class="page-link" href="#" aria-current="page">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section id="contacto" class="contacto">
+            <div>           
+                <h2>Contacto</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum libero ipsa eligendi minima nam commodi necessitatibus similique explicabo sint est veniam itaque earum, nisi natus? Inventore eveniet hic nobis delectus!</p>
+                <a href="contacto.html"><button class="btn-form" type="button" href="contacto.html">Formulario</button></a>
+            </div>
+        </section>
+        <section id="banner" class="banner">
+            <img src="img/banner.webp">
+        </section>
+
+    </main>
+    <footer>
+        <ul class="lista-enlaces">
+            <li class="enlaces"><a href="index.html">Inicio</a></li>
+            <li class="enlaces"><a href="#productos">Productos</a></li>
+            <li class="enlaces"><a href="#">Nosotros</a></li>
+            <li class="enlaces"><a href="#">Contacto</a></li>
+        </ul>
+        <hr>
+        <p class="derechos">&copy;2025 Nombre de pagina,Inc</p>
+        <div class="redes-sociales">
+            <a href="http://www.instagram.com/verrati_cl_xx" target="_blank"><i class="bi bi-instagram"></i>INSTAGRAM</a>
+            <a href="http://www.facebook.com/Felipe Andres Pinto Galvez" target="_blank"><i class="bi bi-facebook"></i>FACEBOOK</a>
+            <a href="http://wa.me/+56927377470" target="_blank"><i class="bi bi-whatsapp"></i>WHATSAPP</a>
+        </div>
+        <div class="info-actual">
+            <p class="autor">Hecho por: Felipe Pinto</p>
+            <p class="fecha">01-01-1001</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="JS/base.js"></script>
+</body>
+</html>
