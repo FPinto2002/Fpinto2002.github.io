@@ -110,8 +110,21 @@ footer hr {
 }
 
 .redes-sociales {
-    display: block;
-    margin: auto;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: var(--navfootcolorfont);;
+}
+
+i {
+    padding-right: 5px;
 }
 
 footer p, .info-actual p {
@@ -128,5 +141,5 @@ footer p {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding: 0 1rem;
 }
-
