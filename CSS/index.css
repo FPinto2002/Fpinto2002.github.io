@@ -8,10 +8,9 @@
     --btncolordarkm: rgba(250,250,250,1);
 }
 
-.banner, banner img {
+.banner, .banner img {
     width: 100%;
     text-align: center;
-
 }
 
 
