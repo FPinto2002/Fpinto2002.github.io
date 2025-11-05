@@ -8,9 +8,10 @@
     --btncolordarkm: rgba(250,250,250,1);
 }
 
-.promo {
+.banner, banner img {
     width: 100%;
     text-align: center;
+
 }
 
 
@@ -107,11 +108,4 @@ hr {
     transition: 1s;
     color: var(--fontcolordarkm);
     background-color: var(--btncolordarkm);
-}
-
-
-/* Sección Banner */
-/* BANNER */
-.banner, .banner img {
-    width: 100%;
 }
