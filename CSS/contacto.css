@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+:root {
+    --fontcolormain: rgba(250,250,250,1);
+    --fontcolordarkm: rgba(5,5,5,1);
+    --contacto:rgba(45,45,45,1);
+    --btncolor: rgba(20,20,20,1);
+    --btncolordarkm: rgba(250,250,250,1);
+}
+
+main {
+    width: 100%;
+
+}
+
+h1 , p {
+    padding: 1rem 0;
+    text-align: center;
+    color: var(--fontcolormain);
+    font-family: "New Rocker", system-ui;
+}
+
+form {
+    width: 60%;
+    max-width: 500px;
+    min-width: 300px;
+
+    margin: 0 auto;
+}
+
+fieldset {
+    border: none;
+    padding: 1rem 0;
+}
+
+label {
+    display: block;
+    padding: 0.5rem 0;
+    color: var(--fontcolormain);
+}
+
+input,
+textarea {
+    width: 100%;
+    min-height: 2em;
+    color: var(--fontcolormain);
+    background-color: var(--contacto);
+    border-color: var(--fontcolormain);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+button {
+    width: 60%;
+    border-color: var(--btncolordarkm);
+    background-color: var(--btncolor);
+    color: var(--fontcolormain);
+    border-radius: 0.5rem;
+}

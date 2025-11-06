@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <!-- Información Pestaña -->
-    <title>Nombre - PAGINA PRINCIPAL</title>
+    <title>VOID - FORMULARIO</title>
     <link rel="icon" href="img/favicon.ico">
 
     <!-- Metadatos -->
@@ -20,14 +20,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="CSS/base.css"> <!-- Hoja de estilos base -->
-    <link rel="stylesheet" href="CSS/index.css"> <!-- Hoja de estilos base -->
+    <link rel="stylesheet" href="CSS/contacto.css"> <!-- Hoja de estilos base -->
 
 </head>
 <body>
     <header>
         <a class="logo" href="index.html" >
             <img src="img/icono.png" alt="Logotipo de página">
-            <span>Nombre de tienda</span>
+            <span>VOID</span>
         </a>
         <ul class="lista-enlaces">
             <li class="enlaces"><a href="index.html">Inicio</a></li>
@@ -38,8 +38,22 @@
     </header>
 
     <main>
-
+        <h1>Trabaja con Nosotros</h1>
+        <p>Por favor complete este formulario con la información requerida</p>
+        <form>
+            <fieldset>
+                <label for="nombre">Nombre: <input id="nombre" name="nombre" type="text" placeholder="Ingrese su nombre..." required></label>
+                <label for="usuario">Usuario: <input id="usuario" name="usuario" type="text" placeholder="Ingrese su usuario..." required></label>
+                <label for="contrasena">Contraseña: <input id="contrasena" name="contrasena" type="password" required></label>
+                <label for="email">Email: <input id="email" name="email" type="email" placeholder="Ingrese su E-mail..." required></label>
+                <label for="mensaje">Mensaje: <textarea id="mensaje" name="mensaje" rows="3" cols="30" placeholder="Ingrese su mensaje..."></textarea></label>
+            </fieldset>
+            <div class="btn">
+                <button id="input-enviar" type="button">Enviar</button>
+            </div>
+        </form>
     </main>
+
     <footer>
         <ul class="lista-enlaces">
             <li class="enlaces"><a href="index.html">Inicio</a></li>
@@ -48,12 +62,12 @@
             <li class="enlaces"><a href="contacto.html">Contacto</a></li>
         </ul>
         <hr>
-        <p class="derechos">&copy;<b class="year">2000</b> Negocio | Todos los derechos reservados</p>
+        <p class="derechos">&copy;<b class="year">2000</b> VOID | Todos los derechos reservados</p>
         <div class="redes-sociales">
-            <a href="https://www.instagram.com/verrati_cl_xx" target="_blank"><i class="bi bi-instagram"></i> verrati_cl_xx</a>
-            <a href="https://web.facebook.com/profile.php?id=100007897726050" target="_blank"><i class="bi bi-facebook"></i> Felipe Andrés Pinto Gálvez</a>
-            <a href="https://wa.me/+56927377470" target="_blank"><i class="bi bi-whatsapp"></i>+56 9 2737 7470</a>
-            <a href="mailto:felipepinto.contacto@gmail.com" target="_blank"><i class="bi bi-envelope-at-fill"></i> felipepinto.contacto@gmail.com</a>
+            <a href="https://www.instagram.com/verrati_cl_xx" target="_blank"><i class="bi bi-instagram"></i>verrati_cl_xx</a>
+            <a href="https://web.facebook.com/profile.php?id=100007897726050" target="_blank"><i class="bi bi-facebook"></i>Felipe Andrés Pinto Gálvez</a>
+            <a href="https://wa.me/+56927377470" target="_blank"><i class="bi bi-whatsapp"></i>+569 2737 7470</a>
+            <a href="mailto:felipepinto.contacto@gmail.com" target="_blank"><i class="bi bi-envelope-at-fill"></i>felipepinto.contacto@gmail.com</a>
         </div>
         <div class="info-actual">
             <p class="autor">Hecho por: Felipe Pinto</p>
