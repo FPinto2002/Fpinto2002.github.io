@@ -1,4 +1,7 @@
-
+h1, h2, h3, p {
+    text-align: center;
+    color: white;
+}
 
 .seccion-servicios {
     width: 100%;
@@ -6,11 +9,6 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 2rem 0;
-}
-
-h2, h3, p {
-    text-align: center;
-    color: white;
 }
 
 .contenedor {
