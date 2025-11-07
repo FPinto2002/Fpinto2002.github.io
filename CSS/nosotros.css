@@ -3,6 +3,13 @@ h1, h2, h3, p {
     color: white;
 }
 
+hr {
+    display: block;
+    margin: auto;
+    width: 85%;
+    border-color: white;
+}
+
 .seccion-servicios {
     width: 100%;
     display: flex;
@@ -24,11 +31,7 @@ h1, h2, h3, p {
     flex-wrap: wrap;
 }
 
-hr {
-    display: block;
-    margin: auto;
-    width: 85%;
-}
+
 
 .seccion-tematica {
     width: 100%;
